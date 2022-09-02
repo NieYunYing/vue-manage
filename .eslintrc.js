@@ -1,3 +1,10 @@
+/*
+ * @Author: NYY
+ * @Date: 2022-08-27 10:47:12
+ * @LastEditTime: 2022-08-27 11:40:04
+ * @LastEditors: NYY
+ * @Description: 
+ */
 module.exports = {
   root: true,
   env: {
@@ -12,6 +19,7 @@ module.exports = {
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    "vue/multi-word-component-names":0
   }
 }
