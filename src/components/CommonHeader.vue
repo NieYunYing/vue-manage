@@ -1,7 +1,7 @@
 <!--
  * @Author: NYY
  * @Date: 2022-08-29 10:22:27
- * @LastEditTime: 2022-09-02 09:45:37
+ * @LastEditTime: 2022-09-03 11:53:17
  * @LastEditors: NYY
  * @Description: 
 -->
@@ -70,7 +70,7 @@ header {
   display: flex;
   align-items: center;
   .el-button {
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 .r-content {
